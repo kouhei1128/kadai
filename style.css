@@ -1,0 +1,115 @@
+/* 全体 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f7fa;
+  text-align: center; /* 中央寄せ */
+}
+
+/* ヘッダー */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+}
+
+/* ナビ */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* セクション */
+section {
+  margin: 30px auto;
+  width: 80%;
+}
+
+/* 食べ物カード */
+.food-card {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.food-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* 表 */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+}
+
+th {
+  background: #4CAF50;
+  color: white;
+}
+
+/* フォーム */
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+/* ボタン */
+input[type="submit"] {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #45a049;
+}
+
+/* フッター */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+
+body {
+  background: linear-gradient(to right, #a0d4db, #ffffff);
+}
+
+
+.food-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
